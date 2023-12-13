@@ -44,6 +44,7 @@ div.change_language {
   align-items: center;
   padding: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .english {
@@ -54,6 +55,7 @@ div.change_language {
   align-items: center;
   padding: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .checkbox {
@@ -73,16 +75,40 @@ div.change_language {
   margin: 1px;
 }
 
-div.title {
+.title {
   font-family: monospace;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 50px;
+}
+
+h1 {
+  font-weight: bold;
   font-size: 35px;
 }
 
-a {
+h2 {
+  font-size: 17px;
+  margin-top: 0px;
+}
+
+nav {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+nav a {
+  margin-left: 20px;
+  display: list-item flow;
   text-decoration: none;
   color: black;
-  display: inline;
+  transition: color 0.25s;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: gray;
 }
