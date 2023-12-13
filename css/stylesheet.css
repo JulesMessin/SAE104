@@ -1,0 +1,88 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+main {
+  width: calc(100% - 70px);
+  height: calc(100% - 70px);
+  margin: 35px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+}
+
+div.change_language {
+  margin-right: 35px;
+  height: 35px;
+  top: 0;
+  padding: 0;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  font-weight: bold;
+}
+
+.fr {
+  width: 205px;
+}
+
+.en {
+  width: 190px;
+}
+
+.french {
+  color: black;
+  font-size: 15px;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.english {
+  color: black;
+  font-size: 15px;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  margin-right: 5px;
+  border: 1px solid black;
+  align-items: center;
+  display: inline-block;
+}
+
+.check {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  margin: 1px;
+}
+
+div.title {
+  font-family: monospace;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+}
