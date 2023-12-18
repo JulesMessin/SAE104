@@ -1,0 +1,41 @@
+EXEMPLE ::
+
+CONTACT:
+
+    Pour me contacter 📞
+
+    N'hésitez pas à utiliser les coordonnées suivantes après votre visite sur ce site pour me contacter.
+
+    Veuillez privilégier l'adresse e-mail universitaire ou professionnelle selon votre demande.
+
+    Mon adresse e-mail universitaire est jules.messin@etu.univ-poitiers.fr.
+    Mon adresse e-mail professionnelle est messinjulespro@gmail.com.
+    Mon numéro de téléphone est le 07 87 88 02 17.
+
+
+ACCUEIL : 
+
+ Bonjour et bienvenue sur la plateforme dédiée à mon travail ! 
+Je me présente, je m'appelle Jules Messin et je suis actuellement engagé dans ma première année d'études en BUT Réseaux & Télécommunications. Ce site a pour dessein de mettre en lumière ma personne, mes compétences, mon parcours, ainsi que mes réalisations personnelles et académiques.
+A PROPOS DE MOI
+
+COMPETENCE : 
+
+D'abord, je vais retracer mon parcours éducatif. 
+Au collège Fontanes à Niort, j'ai eu l'occasion de m'initier à la programmation via scratch, une étape déterminante dans l'orientation de ma carrière professionnelle et académique. 
+J'y ai également obtenu le diplôme national du brevet. Ensuite, au lycée Jean Macé, j'ai opté pour les spécialités NSI, Maths et LLCE (Anglais) afin de cultiver mon intérêt croissant pour les métiers de l'informatique, notamment grâce à la NSI. 
+C'est ainsi que j'ai orienté mes études vers un BUT Réseaux & Télécommunications via Parcoursup. 
+En 2023, j'ai décroché mon baccalauréat avec la mention assez bien et j'ai intégré l'IUT de Châtellerault en première année de la formation BUT Réseaux & Télécommunications.
+
+Mes compétences techniques comprennent une solide expérience dans plusieurs domaines. 
+En développement web, j'ai une année d'expérience avec HTML et CSS. 
+En programmation, ma maîtrise de Python s'étend sur une période de trois ans. 
+De plus, je suis à l'aise avec les outils de versionnage tels que Git et Github. 
+Ces compétences techniques me permettent d'aborder efficacement une variété de tâches et de projets dans les domaines du développement web et de la programmation
+
+PROJET : 
+
+Avant de parler de mes projets en général, je pense qu'il est primordial de séparer les projets personnels des projets académiques, les deux sont liés mais l'intention initiale n'est pas la même.
+
+Pour commencer, parlons de mes projets académiques dans l'ordre chronologique : 
+
