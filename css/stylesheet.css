@@ -168,7 +168,7 @@ nav a:hover {
 
 div.textbox1 {
   position: absolute;
-  width: calc(100% - 140px);
+  width: calc(100% - 700px);
   right: 85px;
   bottom: 85px;
   font-family: monospace;
@@ -179,12 +179,26 @@ div.textbox1 {
 
 div.textbox2 {
   position: absolute;
-  right: 85px;
-  top: 85px;
+  width: calc(100% - 1000px);
+  right: 375px;
+  top: 110px;
   font-family: monospace;
   text-align: right;
   font-size: 11px;
   display: inline;
+}
+
+.imgbox1 {
+  animation: smooth 3s ease;
+  position: absolute;
+  bottom: 85px;
+  left: 85px;
+}
+.imgbox2 {
+  animation: smooth 3s ease;
+  position: absolute;
+  top: 85px;
+  right: 85px;
 }
 .frame {
   border: 2px solid black;
