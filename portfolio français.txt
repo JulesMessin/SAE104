@@ -1,6 +1,6 @@
 PROJET
-Nous sommes en train de réaliser une SAE intitulée 'Traiter les données'., et le but de ce projet est de calculer le débit de la rivière à l'aide des concentrations de sel obtenues grace à une sonde, nous devons alors créer un site web (html/css) à partir d'un fichier python où on y trouvera le calcul du débit, et un diagramme de la concentration en sel sur la durée. 
-Le projet peut etre accessible via github:
+Nous sommes en train de réaliser une SAE intitulée 'Traiter les données',L'objectif de ce projet est de déterminer le débit de la rivière en utilisant les concentrations de sel mesurées grâce à une sonde, Nous devons donc concevoir un site web (HTML/CSS) à partir d'un fichier Python contenant le calcul du débit, et un graphique représentant la concentration en sel sur une période de temps. 
+L'accès au projet peut se faire en utilisant le lien github.
 https://github.com/JulesMessin/SAE105.git
 
 Je n'ai aucun autre projet en cours.
