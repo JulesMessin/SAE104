@@ -32,6 +32,9 @@ We are in the process of implementing an SAE called 'Processing Data',
 The objective of this project is to determine the flow of the river using salt concentrations measured by a probe. We therefore need to design a web site (HTML/CSS) from a Python file containing the flow calculation, and a graph representing the salt concentration over a period of time.
 Access to the project can be done using the github link.
 
+I don't have any other projects going on.
+I plan to do a personal project outside of work, with the aim of creating a video game.
+
 CONTACT
 Please use the following contact details after your visit to this site to contact me.
 My university e-mail address is jules.messin@etu.univ-poitiers.fr
