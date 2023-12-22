@@ -30,6 +30,116 @@
   100% {}
 }
 
+@media print and (orientation: landscape){
+  nav {
+    display: none;
+  }
+  img {
+    display: none;
+    animation: smooth_color 2s ease;
+  }
+   .change_language { display: none!important }
+   .textbox1 {
+     display: block!important;
+     width: calc(100% - 200px)!important;
+   }
+   .textbox2 {
+     top:65px!important;
+     display: block!important;
+     right:85px!important;
+     width: calc(100% - 600px)!important;
+   }
+   .link {
+     display: block!important;
+     right: 85px!important;
+   }
+   .link2 {
+     display: block!important;
+     right: 85px!important;
+   }
+}
+@media print and (orientation: portrait){
+  img {
+    display: none;
+    animation: smooth_color 2s ease;
+  }
+  nav {
+    display: none;
+  }
+   .change_language { display: none!important }
+   .textbox1 {
+     display: block!important;
+     top:250px!important;
+     right: 85px!important;
+     width: calc(100% - 200px)!important;
+   }
+   .textbox2 {
+     display: block!important;
+     top:620px!important;
+     right: 85px!important;
+     width: calc(100% - 200px)!important;
+   }
+   .link {
+     display: block!important;
+     top:700px!important;
+     right: 85px!important;
+   }
+   .link2 {
+     display: block!important;
+     top:700px!important;
+     right: 85px!important;
+   }
+   .up {
+     top:400px!important;
+   }
+}
+
+@media screen and (max-width: 1300px) {
+  img {
+    display: none;
+    animation: smooth_color 2s ease;
+  }
+
+  .textbox1 {
+    width: calc(100% - 200px)!important;
+  }
+
+  .textbox2 {
+    width: calc(100% - 600px)!important;
+    right:85px!important;
+    animation: smooth_color 2s ease;
+  }
+  .link {
+    display: block!important;
+    width: calc(100% - 600px)!important;
+    right:85px!important;
+  }
+  .link2 {
+    display: block!important;
+    width: calc(100% - 600px)!important;
+    right:85px!important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .textbox1 {
+    display: none!important;
+    animation: smooth_color 2s ease;
+  }
+
+  .textbox2 {
+    display: none!important;
+    animation: smooth_color 2s ease;
+  }
+  .link {
+    display: none!important;
+    animation: smooth_color 2s ease;
+  }
+  .link2 {
+    display: none!important;
+    animation: smooth_color 2s ease;
+  }
+}
+
 body, html {
   height: 100%;
   width: 100%;
@@ -215,4 +325,22 @@ div.textbox2 {
   min-height: 100%;
   width: auto;
   height: auto;
+}
+a.link {
+  text-align: right;
+  animation: smooth 3s ease;
+  position: absolute;
+  top: 175px;
+  right: 400px;
+  font-size: 11px;
+  font-family: monospace;
+}
+a.link2 {
+  text-align: right;
+  animation: smooth 3s ease;
+  position: absolute;
+  top: 470px;
+  right: 400px;
+  font-size: 11px;
+  font-family: monospace;
 }
