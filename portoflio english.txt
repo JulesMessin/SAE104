@@ -1,0 +1,28 @@
+ACCUEIL
+Hello and welcome to the platform dedicated to my work!
+My name is Jules Messin and I am currently engaged in my first year of studies in BUT Networks & Telecommunications.
+The purpose of this site is to highlight my person, my skills, my career, as well as my personal and academic achievements.
+
+COMPETENCE
+I have extensive experience in several technical areas.
+My experience in web development spans several years, where I gained solid skills in HTML and CSS.
+I have gained solid experience in Python programming over the course of more than three years.
+Plus, I'm comfortable with collaborative work tools like Git and Github.
+Thanks to these technical skills, I can effectively tackle a variety of tasks and projects in the areas of web development and programming.
+
+In addition to all these skills called Hardskills, I also have softskills.
+I have already done two seasonal jobs that lasted 2 months:
+The first took place in a factory where I worked as a handler at Sodiproc (Master Pig). . .
+. . . and the second took place in a restaurant (L'Atlantique) located in La Tranche-Sur-Mer where I was hired as a waiter.
+
+A PROPOS DE MOI
+Computing is an important part of my life, everything about code interests me a lot, it's a way for me to create something.
+I also practice boxing, it's a sport that fascinates me.
+Cooking is one of my favorite activities, I love cooking delicious dishes
+I like to read a lot, whether it's books, comics or manga.
+
+Educational background:
+In college, I had the opportunity to learn programming via scrath
+Then, at Jean Macé High School, I opted for the NSI, Maths and LLCE (English) specialties in order to cultivate my interest in IT professions.
+This is how I oriented my studies towards a BUT Networks & Telecommunications through Parcoursup.
+In 2023, I managed to get my bachelor's degree with a fairly good mention and I chose to join the IUT in Châtellerault for my first year of the BUT Networks & Telecommunications training.
