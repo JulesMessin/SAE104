@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>MYB</title>
+</head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: beige;
+  height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  padding: 1rem;
+}
+
+.brand {
+  font-weight: 150;
+  font-size: 16px;
+  color: crimson;
+  font-family: 'HELVETICA', serif;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: crimson;
+  font-weight: 550;
+  font-size: 18px;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: crimson;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.brand {
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.brand:hover {
+  transform: translateY(-10px);
+  opacity: 0.7;
+}
+
+.text-principal {
+	text-align: center;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.text-principal #titre {
+	text-align: left;
+}
+
+.text-principal > p{text-align: left; text-align: justify; max-height: 150px; max-	width: 100px;
+word-wrap: break-word; 
+    text-overflow: ellipsis;}
+
+#titre-section {
+	color: crimson;
+	padding-top: 10%;
+	margin-left: 20%;	
+}
+hr {width: 60%; border: 1px solid crimson;}
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: beige;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+footer ul {
+	list-style: none;
+	color: black;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	
+}
+
+footer ul li {
+	color: inherit;
+	display: inline;
+	padding: 25px;
+	position: relative;
+	margin-right: 15px;
+}
+
+.up-logo{
+	width: 7.5%;
+	height: auto;
+
+}
+
+.rt-logo{width: 25%;}
+
+.text-secondaire p{text-align: left; text-align: justify; max-height: 150px; max-width: 100px;
+word-wrap: break-word; 
+    text-overflow: ellipsis;}
+
+</style>
+<body>
+  <header>
+    <div class="brand">M. Yassine BOUCHAMA</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">A PROPOS</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="mailto:mohamed.bouchama@etu.univ-poitiers.fr">CONTACT</a></li>
+		<li><a href="index_en.html">EN</a></li>
+      </ul>
+    </nav>
+  </header>
+  	<div class="titre">
+		<h1 id="titre-section">A Propos</h1>
+		<hr>
+	</div>
+  <div class="text-principal">
+	<h2 id="titre">Bonjour!<br>Je suis Yassine.</h2>
+	<p>Je suis un étudiant en première année BUT de Réseaux et Télécommunications à l'IUT de Poitiers-Niort-Châtellerault, Site de Châtellerault. Je suis un étudiant passionné par le monde de l'informatique, constamment motivé par la volonté d'explorer de nouvelles technologies et de relever des défis innovants.	</p>
+  </div>
+  
+</body>
+<footer>
+	<div class="footer-container">
+			<ul>
+				<li><img src="https://www.univ-poitiers.fr/wp-content/uploads/sites/10/2021/10/logo-up.svg" alt="Universite de Poitiers" class="up-logo"></li>
+				<li><img src="https://iutp.univ-poitiers.fr/rt/wp-content/uploads/sites/141/2019/07/Nx70xIUT_RT_long_v2.png.pagespeed.ic.xl0cF5TnGl.png" alt="IUT Poitiers - Réseaux & Télécommunication" class="rt-logo"></li>
+			</ul>
+	</div>
+</footer>
+</html>

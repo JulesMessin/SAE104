@@ -1,0 +1,214 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>MYB</title>
+</head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: beige;
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  padding: 1rem;
+}
+
+.brand {
+  font-weight: 150;
+  font-size: 16px;
+  color: crimson;
+  font-family: 'HELVETICA', serif;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: crimson;
+  font-weight: 550;
+  font-size: 18px;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: crimson;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.brand {
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.brand:hover {
+  transform: translateY(-10px);
+  opacity: 0.7;
+}
+
+#titre-section {
+	color: crimson;
+	padding-top: 10%;
+	margin-left: 0%;	
+}
+
+hr {width: 60%; border: 1px solid crimson;}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: beige;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+footer ul {
+	list-style: none;
+	color: black;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	
+}
+
+footer ul li {
+	color: inherit;
+	display: inline;
+	padding: 25px;
+	position: relative;
+	margin-right: 15px;
+}
+
+.up-logo{
+	width: 7.5%;
+	height: auto;
+	min-width: 5%
+
+}
+
+.rt-logo{width: 25%; min-width: 20%}
+
+.text-secondaire {
+	text-align: center;
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%)
+}
+
+.text-secondaire p{
+	text-align: left; 
+	text-align: justify; 
+	max-height: 500px;
+	min-height: 500px; 
+	max-width: 650px;
+	min-height: 200px;
+	word-wrap: break-word; 
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-wrap: break-word;
+	
+}
+
+@media (max-width:700px){
+   .text-secondaire {
+      display: flex;
+      flex-direction: column;
+    }
+
+#titre{
+	padding-top: 25px;
+	position: relative;
+}
+
+#text1{
+position: relative;
+}
+
+#text2 {
+	position: relative;
+}
+
+paragraphe-secondaire {
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+</style>
+<body>
+  <header>
+    <div class="brand">M. Yassine BOUCHAMA</div>
+    <nav>
+      <ul>
+        <li><a href="index_en.html">ABOUT ME</a></li>
+        <li><a href="cv_en.html">CV</a></li>
+        <li><a href="mailto:mohamed.bouchama@etu.univ-poitiers.fr">CONTACT</a></li>
+		<li><a href="cv.html">FR</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div class="text-secondaire">
+  	<div class="titre">
+		<h1 id="titre-section">CV</h1>
+		<hr>
+	</div>
+		<div id="text1">
+			<h2 id="titre">Skills and Knowledge</h2>
+			<p class="paragraphe-secondaire">As a student in Networks and Telecommunications, what sets me apart are my advanced technical skills and my ability to adapt to the constant evolutions in this field. I possess in-depth knowledge in computer networks, fixed and mobile communications, and cybersecurity. I am trained in the maintenance, management, and monitoring of Windows and Linux systems, virtualization management, and the use of cloud services. My profound understanding of communication infrastructures, ability to assess service quality, and identification of scientific and technological advancements make me a valuable asset for companies. Additionally, my commitment to obtaining professional certifications such as CISCO-CCNA demonstrates my determination to stay at the forefront of the industry. Furthermore, through training, I will acquire project management skills, business knowledge, and linguistic abilities, enhancing your versatile and adaptable profile to meet the needs of the professional world. 			</p>
+ 		</div>
+ 		<div id="#text2">
+ 			<h2 id="titre">Personality</h2>
+ 			<p class="paragraphe-secondaire">
+As a knowledge-hungry student, my insatiable curiosity serves as the driving force behind my academic journey. Each course, every project presents an opportunity to delve into the unknown, to push the boundaries of my understanding, and to explore new ideas. My innovative spirit thrives in tackling complex problems, constantly seeking creative solutions to the challenges at hand. Obstacles are not barriers but invitations to push my own limits and discover uncharted perspectives. The passion that fuels me extends beyond textbooks, as I am constantly in search of new sources of inspiration, whether through literature, technology, or even casual discussions. Every challenge is a chance to grow, learn, and make a unique contribution to the academic community, as I firmly believe that innovation arises from the willingness to tackle challenges with a fresh and bold approach. 			</p>
+ 		</div>
+  </div>
+  
+  
+  
+</body>
+<footer>
+	<div class="footer-container">
+			<ul>
+				<li><img src="https://www.univ-poitiers.fr/wp-content/uploads/sites/10/2021/10/logo-up.svg" alt="Universite de Poitiers" class="up-logo"></li>
+				<li><img src="https://iutp.univ-poitiers.fr/rt/wp-content/uploads/sites/141/2019/07/Nx70xIUT_RT_long_v2.png.pagespeed.ic.xl0cF5TnGl.png" alt="IUT Poitiers - Réseaux & Télécommunication" class="rt-logo"></li>
+			</ul>
+	</div>
+</footer>
+</html>
