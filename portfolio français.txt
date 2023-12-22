@@ -1,5 +1,5 @@
 ACCUEIL
-L'accès au code du portfolio peut etre acceder via github:
+Le code du portfolio peut être consulté en utilisant le lien github
 https://github.com/JulesMessin/SAE104.git
 
 PROJET
