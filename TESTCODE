@@ -1,0 +1,4 @@
+<div class="no-print">non visible à l'impression</div>
+@media print {
+   .no-print { display: none!important }
+}
