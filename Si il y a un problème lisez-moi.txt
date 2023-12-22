@@ -1,0 +1,4 @@
+Si la page ne s'affiche pas, ou qu'il n'y a qu'une video en premier plan, c'est que le naviguateur a déformé tout mon site, veuillez dans ce cas changer de naviguateur.
+Pendant le dévellopement du site web, je n'ai pas rencontré de problème comme celui de dessus, juste une fois lorsque que je me suis connecté à mon site avec chrome de la machinen virtuelle
+J'en déduis donc que en fonction du naviguateur et de sa version cela risque de ne pas marcher, 
+J'ai testé le site web avec brave, firefox et chrome, ces trois naviguateurs marchent parfaitement avec mon site web
