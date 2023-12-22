@@ -1,8 +1,8 @@
 PROJET
-Nous sommes entrain de faire une SAE qui se nomme "Traiter les données", et le but de ce projet est de calculer le débit de la rivière à l'aide des concentrations de sel obtenues grace à une sonde, nous devons alors créer un site web (html/css) à partir d'un fichier python où on y trouvera le calcul du débit, et un diagramme de la concentration en sel sur la durée. 
+Nous sommes en train de réaliser une SAE intitulée 'Traiter les données'., et le but de ce projet est de calculer le débit de la rivière à l'aide des concentrations de sel obtenues grace à une sonde, nous devons alors créer un site web (html/css) à partir d'un fichier python où on y trouvera le calcul du débit, et un diagramme de la concentration en sel sur la durée. 
 Le projet peut etre accessible via github:
 https://github.com/JulesMessin/SAE105.git
 
-Je n'ai pas d'autre projets en cours.
-J'ai pour but plus tard de faire une projet personnel en dehors du travail qui consciste à créer un jeu vidéo (mais c'est pour plus tard, je n'ai pas encore les compétences néccessaires pour faire cela
+Je n'ai aucun autre projet en cours.
+Je prévois de réaliser un projet personnel en dehors du travail, dans le but de créer un jeu vidéo.
 
