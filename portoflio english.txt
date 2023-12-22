@@ -3,6 +3,9 @@ Hello and welcome to the platform dedicated to my work!
 My name is Jules Messin and I am currently engaged in my first year of studies in BUT Networks & Telecommunications.
 The purpose of this site is to highlight my person, my skills, my career, as well as my personal and academic achievements.
 
+The portfolio code can be accessed via github:
+https://github.com/JulesMessin/SAE104.git
+
 COMPETENCE
 I have extensive experience in several technical areas.
 My experience in web development spans several years, where I gained solid skills in HTML and CSS.
