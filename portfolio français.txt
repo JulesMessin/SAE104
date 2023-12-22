@@ -1,3 +1,7 @@
+ACCUEIL
+L'accès au code du portfolio peut etre acceder via github:
+https://github.com/JulesMessin/SAE104.git
+
 PROJET
 Nous sommes en train de réaliser une SAE intitulée 'Traiter les données',L'objectif de ce projet est de déterminer le débit de la rivière en utilisant les concentrations de sel mesurées grâce à une sonde, Nous devons donc concevoir un site web (HTML/CSS) à partir d'un fichier Python contenant le calcul du débit, et un graphique représentant la concentration en sel sur une période de temps. 
 L'accès au projet peut se faire en utilisant le lien github.
